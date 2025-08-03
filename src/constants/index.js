@@ -95,6 +95,8 @@ export const projects = [
       { id: 3, name: "GSAP" },
       { id: 5, name: "Tailwind CSS" },
     ],
+    projectLink:"https://mojito-weld.vercel.app/",
+    githubLink:"https://github.com/Anurag07-07/mojito"
   },
   {
     id: 2,
@@ -110,6 +112,8 @@ export const projects = [
       { id: 4, name: "GSAP" },
       { id: 5, name: "Three.js" },
     ],
+    projectLink:"https://iphone-seven-delta.vercel.app/",
+    githubLink:"https://github.com/Anurag07-07/Iphone"
   },
   {
     id: 3,
@@ -124,6 +128,8 @@ export const projects = [
       { id: 3, name: "JAVASCRIPT" },
       { id: 4, name: "TAILWIND CSS" },
     ],
+    projectLink:"https://perfume-lilac.vercel.app/",
+    githubLink:"https://github.com/Anurag07-07/perfume"
   },
 ];
 export const socials = [

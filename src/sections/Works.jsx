@@ -4,6 +4,9 @@ import { projects } from "../constants";
 import { useRef, useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { FaGithub } from "react-icons/fa";
+import { MdArrowOutward } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Works = () => {
   const overlayRefs = useRef([]);
@@ -130,11 +133,29 @@ const Works = () => {
 
             {/* title */}
             <div className="flex justify-between px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
-              <h2 className="lg:text-[32px] text-[26px] leading-none">
-                {project.name}
-              </h2>
-              <Icon icon="lucide:arrow-up-right" className="md:size-6 size-5" />
-            </div>
+  <h2 className="lg:text-[32px] text-[26px] leading-none">
+    {project.name}
+  </h2>
+  <div className="flex items-center gap-6 text-xs leading-loose tracking-wider uppercase md:text-sm">
+    <a
+      href={project.githubLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white hover:scale-110 transition-transform"
+    >
+      <FaGithub size={25} />
+    </a>
+    <a
+      href={project.projectLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-white hover:scale-110 transition-transform"
+    >
+      <MdArrowOutward size={25} />
+    </a>
+  </div>
+</div>
+
             {/* divider */}
             <div className="w-full h-0.5 bg-black/80" />
             {/* framework */}
