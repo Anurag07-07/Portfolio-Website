@@ -57,11 +57,14 @@ const Services = () => {
               <div className="flex flex-col gap-2 text-2xl sm:gap-4 lg:text-3xl text-white/80">
                 {service.items.map((item, itemIndex) => (
                   <div key={`item-${index}-${itemIndex}`}>
-                    <h3 className="flex">
-                      <span className="mr-12 text-lg text-white/30">
+                    <h3 className="flex flex-col">
+                      <div className=" flex justify-start items-center">
+                      <span className="mr-12  text-lg text-white/30">
                         0{itemIndex + 1}
                       </span>
                       {item.title}
+                      </div>
+                      <div className=" text-sm">{item.description}</div>
                     </h3>
                     {itemIndex < service.items.length - 1 && (
                       <div className="w-full h-px my-2 bg-white/30" />

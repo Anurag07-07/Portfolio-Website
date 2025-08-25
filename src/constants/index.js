@@ -1,24 +1,32 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
-    description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
-    items: [
-      {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
-      },
-      {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
-      },
-      {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
-      },
-    ],
-  },
+  title: "FullStack Development",
+  description:
+    "I build scalable, modern, and production-ready web applications from scratch. With expertise in both frontend and backend, I ensure clean architecture, smooth performance, and seamless developer experience—perfect for startups and businesses aiming for growth.",
+  items: [
+    {
+      title: "Frontend Development",
+      description:
+        "HTML, CSS, JavaScript, TypeScript, React, Next.js — building responsive, interactive, and SEO-friendly UIs",
+    },
+    {
+      title: "Backend Engineering",
+      description:
+        "Node.js, Express, HonoJS OAuth — designing robust APIs, authentication, and real-time features with WebSockets",
+    },
+    {
+      title: "Database & ORM",
+      description:
+        "MongoDB, PostgreSQL, Prisma — efficient schema design, query optimization, and scalable data management",
+    },
+    {
+      title: "Architecture & Tooling",
+      description:
+        "Monorepo & Turborepo setup, Docker — optimized workflows, modular codebase, and smooth deployment pipelines",
+    },
+  ],
+},
 //   {
 //     title: "DevOps & Cloud Solutions",
 //     description:
