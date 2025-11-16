@@ -178,7 +178,7 @@ export const projects = [
   },
   {
     id: 6,
-    name: "ExcilDraw:On Going",
+    name: "Edunax Draw App: OnGoing",
     href: "",
     image: "assets/projects/Screenshot 2025-08-25 072210.png",
     bgImage: "/assets/backgrounds/map.jpg",
@@ -189,7 +189,7 @@ export const projects = [
       { id: 4, name: "WEBSOCKET" },
       { id: 5, name: "TURBOREPO" },
       { id: 6, name: "PRISMA" },
-      { id: 7, name: "POSTGRES" },
+      { id: 7, name: "POSTGRES SQL" },
     ],
     githubLink:"https://github.com/Anurag07-07/draw-project"
   },
