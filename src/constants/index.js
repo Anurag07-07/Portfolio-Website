@@ -157,7 +157,27 @@ export const projects = [
     githubLink:"https://github.com/Anurag07-07/SecondBrain"
   },
   {
-    id: 4,
+    id: 5,
+    name: "Edunax Gamehub Streaming Platform",
+    description:"Edunax is a full-stack streaming and learning platform built to deliver high-quality educational content with a smooth, reliable, and scalable experience. Developed using modern technologies like Next.js, React, TypeScript, Prisma, PostgreSQL the platform ensures fast performance and clean architecture across the stack.",
+    href: "",
+    image: "assets/projects/stream.png",
+    bgImage: "/assets/backgrounds/map.jpg",
+    frameworks: [
+      { id: 1, name: "NEXT JS" },
+      { id: 2, name: "TYPESCRIPT" },
+      { id: 3, name: "CLERK" },
+      { id: 4, name: "TAILWIND CSS" },
+      { id: 5, name: "INGRESS" },
+      { id: 6, name: "PRISMA" },
+      { id: 7, name: "LIVEKIT" },
+      { id: 8, name: "POSTGRES SQL" },
+    ],
+    projectLink:"https://edunax-streaming-platform.vercel.app/",
+    githubLink:"https://github.com/Anurag07-07/Edunax-Streaming-Platform"
+  },
+  {
+    id: 6,
     name: "ExcilDraw:On Going",
     href: "",
     image: "assets/projects/Screenshot 2025-08-25 072210.png",
@@ -171,7 +191,7 @@ export const projects = [
       { id: 6, name: "PRISMA" },
       { id: 7, name: "POSTGRES" },
     ],
-    githubLink:"https://github.com/Anurag07-07/Drawapp"
+    githubLink:"https://github.com/Anurag07-07/draw-project"
   },
 ];
 export const socials = [

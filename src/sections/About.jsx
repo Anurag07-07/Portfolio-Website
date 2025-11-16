@@ -5,18 +5,11 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
- const text = `Bridging Web2 and Web3 worlds
-I craft intuitive, scalable apps—from idea to launch
-with precision and performance in every layer`;
+ const text = `Transforming ideas into full-stack applications
+Building efficient, secure, and scalable systems across the stack
+Delivering clean architecture, optimized performance, and seamless user experience`;
 
-const aboutText = `Driven by purpose, I build full-stack apps that don’t just work—but wow. From seamless React frontends to secure smart contracts on Solana & Ethereum, I merge design, logic, and decentralized tech.
-
-When I'm not building the future:
-- Developing modern web and Web3 experiences with clean, maintainable code  
-- Educating devs on YouTube—covering Web3, development workflows, and tips  
-- Experimenting with new technologies and improving UI/UX  
-- Collaborating on open-source projects or contributing to developer communities  
-- Mentoring and sharing knowledge—because tech grows through sharing`;
+const aboutText = `I am a highly motivated and adaptable third-year Computer Science student with strong full-stack development skills in JavaScript, TypeScript, React, Next.js, tRPC, Express, Prisma, MongoDB, PostgreSQL, Docker, and modern monorepo tools like Turborepo. I have practical experience building scalable and efficient web applications, working with APIs, authentication systems, real-time communication using WebSockets, and structured backend architectures. I am comfortable working in remote environments, collaborating across time zones, and delivering clean, maintainable code. With a strong foundation in problem-solving and DSA, along with hands-on experience in end-to-end application development`;
 
   const imgRef = useRef(null);
   useGSAP(() => {
@@ -45,7 +38,7 @@ When I'm not building the future:
   return (
     <section id="about" className="min-h-screen bg-black rounded-b-4xl">
       <AnimatedHeaderSection
-        subTitle={"Cod with purpose, Built to scale"}
+        subTitle={"Code with purpose, Built to scale"}
         title={"About"}
         text={text}
         textColor={"text-white"}
